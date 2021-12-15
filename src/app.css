@@ -8,11 +8,3 @@
 :root {
   @apply font-body;
 }
-
-h1 {
-  @apply font-body text-3xl font-bold uppercase tracking-wider mb-4 text-zinc-600;
-}
-
-strong {
-  @apply font-semibold text-teal-500;
-}

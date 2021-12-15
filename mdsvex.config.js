@@ -6,7 +6,11 @@ const config = {
 	},
 
 	remarkPlugins: [],
-	rehypePlugins: []
+	rehypePlugins: [],
+
+	layout: {
+		simple: 'src/lib/layouts/Simple.svelte'
+	}
 };
 
 export default config;

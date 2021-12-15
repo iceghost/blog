@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors');
+
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
@@ -6,10 +8,23 @@ const config = {
 			body: ['Athiti', 'sans-serif'],
 			disp: ['Calistoga', 'serif']
 		},
-		extend: {}
+		extend: {
+			typography: {
+				DEFAULT: {
+					css: {
+						color: colors.zinc['700'],
+						h2: {
+							color: colors.zinc['700'],
+							textTransform: 'uppercase',
+							letterSpacing: '2px'
+						}
+					}
+				}
+			}
+		}
 	},
 
-	plugins: []
+	plugins: [require('@tailwindcss/typography')]
 };
 
 module.exports = config;

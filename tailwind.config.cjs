@@ -17,6 +17,9 @@ const config = {
 							color: colors.zinc['700'],
 							textTransform: 'uppercase',
 							letterSpacing: '2px'
+						},
+						strong: {
+							color: colors.teal['600']
 						}
 					}
 				}

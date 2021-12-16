@@ -13,10 +13,17 @@ const config = {
 				DEFAULT: {
 					css: {
 						color: colors.zinc['700'],
-						h2: {
-							color: colors.zinc['700'],
+						h1: {
+							color: colors.zinc['600'],
 							textTransform: 'uppercase',
-							letterSpacing: '2px'
+							letterSpacing: '2px',
+							// fontFamily: 'Calistoga',
+						},
+						h2: {
+							color: colors.zinc['600'],
+							textTransform: 'uppercase',
+							letterSpacing: '1px',
+							// fontFamily: 'Calistoga',
 						},
 						strong: {
 							color: colors.teal['600']

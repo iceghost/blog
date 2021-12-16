@@ -1,8 +1,10 @@
 ---
 layout: simple
+title: Xin chào thế giới
+date: 15 tháng 12 năm 2021
 ---
 
-## Xin chào thế giới
+## Tiêu đề phụ
 
 Mới mua **tên miền mới**, hí hí
 

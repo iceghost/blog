@@ -13,8 +13,8 @@
 </header>
 
 <div class="bg-teal-900 px-12 py-12 text-white mb-4">
-	<h1 class="text-4xl font-bold uppercase tracking-wider mb-2">{title}</h1>
-	<p>{date}</p>
+	<h1 class="text-4xl font-disp font-bold uppercase tracking-widest mb-2">{title}</h1>
+	<p class="italic">{date}</p>
 </div>
 
 <div class="prose prose-lg prose-teal mx-auto">
